@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Teko');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+    --font-family: 'Teko', sans-serif;
+    --font-family-n: 'Open+Sans', sans-serif;
+
+    --color-bg: #f1f1f1;
+    --color-text: #2a2a38;
+    --color-text-alt: #68ebb8;
+    
+}
