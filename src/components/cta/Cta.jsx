@@ -1,10 +1,13 @@
 import React from 'react'
 import './cta.css';
 
-const Cta = () => {
+export const Cta = ({
+  children
+}) => {
   return (
-    <div>
-      <a className='button' href='button'>Cta</a></div>
+    <button className='mbsn--primary--btn'>
+      {children}
+    </button>
   )
 }
 
