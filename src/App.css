@@ -7,4 +7,6 @@
 
 body {
     background: var(--color-bg);
+    padding-left: 32px;
+    padding-right: 32px;
 }

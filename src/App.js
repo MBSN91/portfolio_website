@@ -1,14 +1,15 @@
 import React from 'react'
 import './App.css'
-import { Construction} from './containers';
+import { Construction } from './containers';
+import { Guides } from './components';
+
 
 const App = () => {
   return (
-    <div className='App'>
-      <div className='--color-bg'>
-        <Construction />  
-      </div>
-    </div>
+  <div>
+    <Construction />
+    <Guides />
+  </div>
   )
 }
 
