@@ -9,10 +9,11 @@
 
 .mbsn--logo {
     width: 250px;
+    height: 97.7px;
 }
 
 .mbsn--box{
-    animation: myAnim 1s ease 1s 1 normal backwards;
+    animation: myAnim 1s ease 1.25s 1 normal backwards;
     text-align: center;
 }
 
@@ -23,6 +24,31 @@
 
 	100% {
 		opacity: 1;
+	}
+}
+
+.mbsn--selfie {
+    position: absolute;
+    height: 126px;
+    width: 126px;
+    top: -127px;
+    left: auto;
+    right: auto;
+    z-index: 0;
+    animation: mbsn-selfie 0.750s ease 1s 1 normal backwards;
+}
+
+@keyframes mbsn-selfie {
+	0% {
+		opacity: 0;
+		transform: rotateX(100deg);
+		transform-origin: bottom;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0);
+		transform-origin: bottom;
 	}
 }
 
@@ -47,6 +73,8 @@
 
 .box {
     padding: 32px;
+    z-index: 2;
+    background-color: var(--color-bg);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -59,6 +87,14 @@
     border-color: var(--color-text);
     animation: boxgrow 1.5s ease-out;
     transform-origin: 0% 0%;
+}
+
+@keyframes boxgrow {
+    0% {
+        transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;    }
+    100% {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+     }
 }
 
 .boxje1 {
@@ -109,14 +145,34 @@
     border-color: var(--color-text);
 }
 
-
-
-
-@keyframes boxgrow {
-    0% {
-        transform: translate3d(0px, 0px, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;    }
-    100% {
-        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
-     }
+.mbsn--btnannounce{
+    position: relative;
 }
+
+.mbsn--announce{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: fit-content;
+    background-color: var(--color-text);
+    font-family: var(--font-family-small);
+    font-size: 10px;
+    color: var(--color-text-alt);
+    z-index: 5;
+    margin-left: 18px;
+}
+
+
+@media screen and (max-width: 360px){
+    .mbsn--announce {
+        margin-left: 7px;
+    }
+    
+}
+
+
+
+
+
 

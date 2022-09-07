@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Teko');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 :root {
     --font-family: 'Teko', sans-serif;
     --font-family-n: 'Open+Sans', sans-serif;
+    --font-family-small: 'Inconsolata', sans-serif;
 
     --color-bg: #f1f1f1;
     --color-text: #2a2a38;
