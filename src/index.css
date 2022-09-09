@@ -12,3 +12,7 @@
     --color-text-alt: #68ebb8;
     
 }
+
+a:-webkit-any-link {
+    text-decoration:none;
+}

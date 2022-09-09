@@ -10,10 +10,10 @@ const Construction = () => {
     <div className='mbsn--container'>
       <div className='box'>
         <img className='mbsn--selfie' src={musa} alt='musabaysan' />
-        <div className='boxje1' />
-        <div className='boxje2' />
-        <div className='boxje3' />
-        <div className='boxje4' />
+        <div className='little-box ne' />
+        <div className='little-box nw' />
+        <div className='little-box se' />
+        <div className='little-box sw' />
         <div className='mbsn--box'>
           <img className='mbsn--logo' src={logo} alt='logo' />
           <p className='mbsn--paragraph'>Portfolio is being rebuild from scratch <br />It will be back soon!</p>

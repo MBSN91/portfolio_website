@@ -8,8 +8,8 @@
 }
 
 .mbsn--logo {
-    width: 250px;
-    height: 97.7px;
+    width: 126px;
+    pointer-events: none;
 }
 
 .mbsn--box{
@@ -29,8 +29,8 @@
 
 .mbsn--selfie {
     position: absolute;
+    pointer-events: none;
     height: 126px;
-    width: 140px;
     top: -127px;
     left: auto;
     right: auto;
@@ -97,52 +97,36 @@
      }
 }
 
-.boxje1 {
+.little-box {
     position: absolute;
+    pointer-events: none;
+    width: 15px;
+    height: 15px;
+    background-color: var(--color-bg);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--color-text);
+    z-index: 6;
+}
+
+.ne {
     top: -7.5px;
     left: -7.5px;
-    width: 15px;
-    height: 15px;
-    background-color: var(--color-bg);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--color-text);
 }
 
-.boxje2 {
-    position: absolute;
+.nw {
     top: -7.5px;
     right: -7.5px;
-    width: 15px;
-    height: 15px;
-    background-color: var(--color-bg);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--color-text);
 }
 
-.boxje3 {
-    position: absolute;
+.se {
     bottom: -7.5px;
     left: -7.5px;
-    width: 15px;
-    height: 15px;
-    background-color: var(--color-bg);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--color-text);
 }
 
-.boxje4 {
-    position: absolute;
+.sw {
     bottom: -7.5px;
     right: -7.5px;
-    width: 15px;
-    height: 15px;
-    background-color: var(--color-bg);
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--color-text);
 }
 
 .mbsn--btnannounce{
