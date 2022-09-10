@@ -59,12 +59,30 @@
     padding-left: 20px;
 }
 
-.nav-list {
+.nav-list-large {
     align-self: center;
+}
+
+.nav-list-small {
+    display: none;
+}
+
+.nav-names-small {
+    display: none;
 }
 
 @media screen and (max-width: 767px){
     .nav-list-large {
+        display: none;
+    }
+
+    .nav-list-small {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .nav-list-small {
         display: none;
     }
 }
