@@ -3,6 +3,8 @@ import './navbar.css';
 import logo from '../../assets/logo.svg';
 import Hamburger from '../../assets/lottie/hamburger/Hamburger'
 
+import { NavLink } from "react-router-dom";
+
 
 const Navbar = () => {
   return (
@@ -13,33 +15,33 @@ const Navbar = () => {
             <div className='nav-list-large'>
               <ul className='nav-names'>
                     <li className='nav-item'>
-                      <a class="nav-link" href="#">Home</a>
+                    <NavLink className='nav-link' to='/home2'>Home</NavLink>
                     </li>
                     <li className='nav-item'>
-                      <a class="nav-link" href="#">Cases</a>
+                    <NavLink className='nav-link' to='/cases'>Cases</NavLink>
                     </li>
                     <li className='nav-item'>
-                      <a class="nav-link" href="#">About</a>
+                    <NavLink className='nav-link' to='/about'>About</NavLink>
                     </li>
                     <li className='nav-item'>
-                      <a class="nav-link" href="#">Contact</a>
+                    <NavLink className='nav-link' to='/contact'>Contact</NavLink>
                     </li>
               </ul>    
             </div>
             <div className='nav-list-small'>
-            <Hamburger />
+            <Hamburger /> 
               <ul className='nav-names-small'>
                     <li className='nav-item'>
-                      <a class="nav-link" href="#">Home</a>
+                    <NavLink className='nav-link' to='/home2'>Home</NavLink>
                     </li>
                     <li className='nav-item'>
-                      <a class="nav-link" href="#">Cases</a>
+                      <NavLink className='nav-link' to='/cases'>Cases</NavLink>
                     </li>
                     <li className='nav-item'>
-                      <a class="nav-link" href="#">About</a>
+                    <NavLink className='nav-link' to='/about'>About</NavLink>
                     </li>
                     <li className='nav-item'>
-                      <a class="nav-link" href="#">Contact</a>
+                    <NavLink className='nav-link' to='/contact'>Contact</NavLink>
                     </li>
               </ul>    
             </div>
