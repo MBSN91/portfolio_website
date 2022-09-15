@@ -1,6 +1,6 @@
 import React from 'react'
 import './cta.css';
-import arrow from '../../assets/arrow.svg'
+import arrow from '../../assets/arrow-dark.svg'
 
 export const Cta = ({
   children

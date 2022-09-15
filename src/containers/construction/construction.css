@@ -74,7 +74,7 @@
 .box {
     padding: 32px;
     z-index: 2;
-    background-color: var(--color-bg);
+    background-color: transparent;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -144,7 +144,30 @@
     font-size: 10px;
     color: var(--color-text-alt);
     z-index: 5;
-    margin-left: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.mbsn--indicate {
+    position: absolute;
+    right: 0px;
+    bottom: -45px;
+    height: 45px;
+    z-index: 10;
+    animation: mbsn-indicate 0.450s ease-out 1.4s 1 normal forwards;
+}
+
+@keyframes mbsn-indicate {
+	0% {
+		bottom: -45px;
+        right: 0px;
+	}
+
+	100% {
+		bottom: -76px;
+        right: 15px;
+	}
 }
 
 

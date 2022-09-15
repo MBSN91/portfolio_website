@@ -26,8 +26,8 @@
     color: rgba(137, 137, 137, 0.15);
     border-top-style: none;
     border-bottom-style: none;
-    border-left-style: solid;
-    border-right-style: solid;
+    border-left-style: dashed;
+    border-right-style: dashed;
     width: 20px;
     height: 100vh;
 }

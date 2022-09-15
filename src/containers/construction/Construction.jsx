@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo.svg';
 import musa from '../../assets/musa-baysan.png'
+import indicate from '../../assets/indicate.svg'
 import './construction.css';
 import Cta from '../../components/cta/Cta';
 
@@ -20,8 +21,9 @@ const Construction = () => {
           <div className='mbsn--btnannounce'><a href='https://mbsn.webflow.io/'>
             <Cta>visit my backup portfolio</Cta>
           </a><div className='mbsn--announce'>My old portfolio website is still online!</div></div>
-        </div>
       </div>
+      <img className='mbsn--indicate' src={indicate} alt='indication' />
+    </div>
     </div>
   )
 }
