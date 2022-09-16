@@ -15,16 +15,16 @@ const Navbar = () => {
             <div className='nav-list-large'>
               <ul className='nav-names'>
                     <li className='nav-item'>
-                    <NavLink className='nav-link' to='/home2'>Home</NavLink>
+                    <NavLink to='/home' className='nav-link'>Home</NavLink>
                     </li>
                     <li className='nav-item'>
-                    <NavLink className='nav-link' to='/cases'>Cases</NavLink>
+                    <NavLink to='/cases' className='nav-link'>Cases</NavLink>
                     </li>
                     <li className='nav-item'>
-                    <NavLink className='nav-link' to='/about'>About</NavLink>
+                    <NavLink to='/about' className='nav-link'>About</NavLink>
                     </li>
                     <li className='nav-item'>
-                    <NavLink className='nav-link' to='/contact'>Contact</NavLink>
+                    <NavLink to='/contact' className='nav-link'>Contact</NavLink>
                     </li>
               </ul>    
             </div>
@@ -32,16 +32,16 @@ const Navbar = () => {
             <Hamburger /> 
               <ul className='nav-names-small'>
                     <li className='nav-item'>
-                    <NavLink className='nav-link' to='/home2'>Home</NavLink>
+                    <NavLink to='/home' className='nav-link'>Home</NavLink>
                     </li>
                     <li className='nav-item'>
-                      <NavLink className='nav-link' to='/cases'>Cases</NavLink>
+                      <NavLink to='/cases' className='nav-link'>Cases</NavLink>
                     </li>
                     <li className='nav-item'>
-                    <NavLink className='nav-link' to='/about'>About</NavLink>
+                    <NavLink to='/about' className='nav-link'>About</NavLink>
                     </li>
                     <li className='nav-item'>
-                    <NavLink className='nav-link' to='/contact'>Contact</NavLink>
+                    <NavLink to='/contact' className='nav-link'>Contact</NavLink>
                     </li>
               </ul>    
             </div>
