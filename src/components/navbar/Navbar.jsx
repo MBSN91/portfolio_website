@@ -2,6 +2,7 @@ import React from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.svg';
 import Hamburger from '../../assets/lottie/hamburger/Hamburger'
+import Cta from '../cta/Cta';
 
 import { NavLink } from "react-router-dom";
 
@@ -25,6 +26,9 @@ const Navbar = () => {
                     </li>
                     <li className='nav-item'>
                     <NavLink to='/contact' className='nav-link'>Contact</NavLink>
+                    </li>
+                    <li className='nav-item'>
+                    <NavLink to='/contact' className='nav-link'><Cta>start project</Cta></NavLink>
                     </li>
               </ul>    
             </div>
